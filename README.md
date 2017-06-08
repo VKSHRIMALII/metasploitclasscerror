@@ -17,7 +17,9 @@ to resolve this error you have to make your exploit compatible with new Metasplo
 
 
 1. open downloaded exploit and check for 
+
              # class MetasploitModule < Msf::Exploit::Remote
+	     
 2. Replace this class MetasploitModule with following code 
 
              # class Metasploit3 < Msf::Exploit::Remote
