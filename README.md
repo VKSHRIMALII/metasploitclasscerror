@@ -1,0 +1,2 @@
+# metasploitclasscerror
+Metasploit Missing MetasploitClassCompatibilityError  
