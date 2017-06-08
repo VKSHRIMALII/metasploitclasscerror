@@ -1,4 +1,4 @@
-# metasploitclasscerror Solutio
+# metasploitclasscerror Solution
 # Metasploit Missing MetasploitC lass Compatibility Error  
 
 I have seen a problem couple of times that people can't load downloaded exploit  from exploit-DB, rapid7 or any other source 
@@ -17,9 +17,9 @@ to resolve this error you have to make your exploit compatible with new Metasplo
 
 
 1. open downloaded exploit and check for 
-             class MetasploitModule < Msf::Exploit::Remote
+             # class MetasploitModule < Msf::Exploit::Remote
 2. Replace this class MetasploitModule with following code 
 
-             class Metasploit3 < Msf::Exploit::Remote
+             # class Metasploit3 < Msf::Exploit::Remote
 	     
 3. now save your file and goto msfconsole it will work or reload_all
